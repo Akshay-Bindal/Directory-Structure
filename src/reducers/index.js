@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux'
-import { visibilityFilter, newFolderPopUp, directories} from './visibilityFilter'
+import { newFolderPopUp, directories} from './directoryStructure'
 
 const todoApp = combineReducers({
     visibilityFilter,
